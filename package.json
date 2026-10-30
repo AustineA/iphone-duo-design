@@ -1,0 +1,31 @@
+{
+  "name": "iphone-duo-design",
+  "version": "1.0.0",
+  "description": "Agent skill: design SwiftUI iOS apps for the foldable iPhone Duo, with the mistakes to avoid",
+  "bin": {
+    "iphone-duo-design": "./bin/install.mjs"
+  },
+  "keywords": [
+    "ai-agent",
+    "claude-code",
+    "codex",
+    "skills",
+    "installer"
+  ],
+  "author": "Austine Amah",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AustineA/iphone-duo-design"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  }
+}
